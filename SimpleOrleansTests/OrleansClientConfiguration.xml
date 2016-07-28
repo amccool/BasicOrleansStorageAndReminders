@@ -1,0 +1,34 @@
+﻿<ClientConfiguration xmlns="urn:orleans">
+
+
+  <!--
+  <SystemStore SystemStoreType ="SqlServer"
+                   DeploymentId="TestStuff"
+                   DataConnectionString="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=basic.mdf;Trusted_Connection=Yes" />
+  <GatewayProvider ProviderType="SqlServer"/>
+-->
+
+
+  <!-- Talk to localhost Orleans -->
+  <!---->
+  <GatewayProvider ProviderType="Config"/>
+
+  <Gateway Address="localhost" Port="30000"/>
+  
+  <Statistics MetricsTableWriteInterval="30s" PerfCounterWriteInterval="30s" LogWriteInterval="300s" WriteLogStatisticsToTable="true" StatisticsCollectionLevel="Info"/>
+
+  <StreamProviders>
+    <Provider Type="Orleans.Providers.Streams.SimpleMessageStream.SimpleMessageStreamProvider" Name="SMSProvider" FireAndForgetDelivery="false"/>
+  </StreamProviders>
+
+  <Globals>
+  </Globals>
+
+  <Tracing DefaultTraceLevel="Warning" TraceToFile="Client-{2}-{0}-{1}.log" TraceToConsole="false">
+    <TraceLevelOverride LogPrefix="Runtime" TraceLevel="Warning"/>
+    <TraceLevelOverride LogPrefix="Grain" TraceLevel="Warning"/>
+    <TraceLevelOverride LogPrefix="Application" TraceLevel="Warning"/>
+    <TraceLevelOverride LogPrefix="Provider" TraceLevel="Warning"/>
+  </Tracing>
+
+</ClientConfiguration>

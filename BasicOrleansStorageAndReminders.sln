@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGrainsInterface", "SimpleGrainsInterface\SimpleGrainsInterface.csproj", "{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGrains", "SimpleGrains\SimpleGrains.csproj", "{EED855BA-B4FC-4642-A9B1-01C79201FD32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleOrleansTests", "SimpleOrleansTests\SimpleOrleansTests.csproj", "{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug with Analysis|Any CPU = Debug with Analysis|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release with Analysis|Any CPU = Release with Analysis|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Debug with Analysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Debug with Analysis|Any CPU.Build.0 = Debug|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Release with Analysis|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Release with Analysis|Any CPU.Build.0 = Release|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9DDCAB-AA13-4540-884B-ADF5A3E38870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Debug with Analysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Debug with Analysis|Any CPU.Build.0 = Debug|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Release with Analysis|Any CPU.ActiveCfg = Release|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Release with Analysis|Any CPU.Build.0 = Release|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED855BA-B4FC-4642-A9B1-01C79201FD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Debug with Analysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Debug with Analysis|Any CPU.Build.0 = Debug|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Release with Analysis|Any CPU.ActiveCfg = Release|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Release with Analysis|Any CPU.Build.0 = Release|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C6816C-13A1-4CDC-9A47-979CAAFEEA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal
